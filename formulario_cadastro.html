@@ -1,26 +1,203 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Cadastro</title>
+    <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
-    <h1>Formulário de Cadastro</h1>
-    <br/>
-    <form>
-        <label for="user"><b>Nome:&nbsp;&nbsp</b></label>
-            <input id="user" type="text"> 
-        <br />
-        <label for="email"><b>E-mail:</b></label>
-            <input id="email" type="email"/>
-        <br/>
-        <label for="senha"><strong>Senha&nbsp;&nbsp</strong></label>        
-            <input id="senha" type="password" maxlength="6">            
-        <br />        
-        <button type="submit">
-            Cadastrar
-        </button>                    
-    </form>    
+    <header>
+        <div class="container">
+            <h1>Meu portal de notícias</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#esportes" title="Ir para a seção de esportes">Esportes</a>
+                </li>
+                <li>
+                    <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <section id="esportes">
+        <div class="container">
+            <h2>Esportes</h2>
+            <div class="articles">
+                <article>
+                <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                <header>
+                    <time class="creation-date">13/07/2022 às 12:35</time>
+                </header>
+                <h3>Grande clássico na noite de hoje</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur 
+                    doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                <header>
+                    <time class="creation-date">13/07/2022 às 12:35</time>
+                </header>
+                <h3>Noite do Superbowl</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur 
+                    doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/basquete.jpg" alt="Vista aérea de uma quadra de basquete" title="Vista aérea de uma quadra de basquete" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Notícia sobre a NBA</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. 
+                    Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/basquete.jpg" alt="Vista aérea de uma quadra de basquete" title="Vista aérea de uma quadra de basquete" />
+                <header>
+                    <time class="creation-date">13/07/2022 às 12:35</time>
+                </header>
+                <h3>Notícia sobre a NBA</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. 
+                    Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+        </div>
+    </section>
+    <section id="economy">
+    <div class="container">
+        <h2>Economia</h2>
+        <div class="articles">
+            <article>
+            <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+            <header>
+                <time>13/07/2022 às 12:35</time>
+            </header>
+            <h3>Dólar em alta de 0.50%</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. 
+                Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        <article>
+            <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+            <header>
+                <time>13/07/2022 às 12:35</time>
+            </header>
+            <h3>Euro em queda de 0.40%</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. 
+                Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        <article>
+            <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+            <header>
+                <time>13/07/2022 às 12:35</time>
+            </header>
+            <h3>Alta no preço do barril do petróleo</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. 
+                Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        <section id="Technology">
+        <div class="container">
+        <h2>Tecnologia</h2>
+        <div class="articles">
+        <article>
+            <img src="./imagens/haste2S.jpg" alt="Mouse Gamer" />
+            <header>
+                <time>10/06/2025 às 12:35</time>
+            </header>
+            <h3>Tecnologia para Gamer</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. 
+                Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        <article>
+            <img src="./imagens/G4_2.jpg" alt="Dockstation para Notebooks" />
+            <header>
+                <time>10/06/2022 às 12:35</time>
+            </header>
+            <h3>Dockstation HP Alto Desempenho</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. 
+                Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        <article>
+            <img src="./imagens/cloud3s.jpg" alt="CloudIII S" />
+            <header>
+                <time>10/06/2022 às 12:35</time>
+            </header>
+            <h3>Novo Fone Gamer Hyperx</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. 
+                Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        <section id="Entertainment">
+    <div class="container">
+        <h2>Entretenimento</h2>
+        <div class="articles">
+        <article>
+            <img src="./imagens/PlaySatationPlus.jpg" alt="PlaySatationPlus" />
+            <header>
+                <time>10/06/2022 às 12:35</time>
+            </header>
+            <h3>Novos jogos para Play Station Plus</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. 
+                Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        <article>
+            <img src="./imagens/trilha_bike.jpg" alt="Trilhas Bike" />
+            <header>
+                <time>10/06/2022 às 12:35</time>
+            </header>
+            <h3>Trilahs para Bikers</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. 
+                Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        <article>
+            <img src="./imagens/NovoFilme1.jpg" alt=" Filmes Amazom Prime" />
+            <header>
+                <time>10/06/2022 às 12:35</time>
+            </header>
+            <h3>Novos Filmes no Amazon Prime</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. 
+                Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        </div>
+    </section>
 </body>
 </html>
